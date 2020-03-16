@@ -30,7 +30,14 @@ p = document.createElement('p');
 p.textContent = 'Me too baby!!'; 
 myDiv.appendChild(p);  
 
-container.appendChild(myDiv);
+container.appendChild(myDiv); 
+
+const btn = document.querySelector('#btn'); 
+btn.addEventListener('click', function (e) { 
+    console.log(e.target); 
+}); 
+
+
 
 
 
